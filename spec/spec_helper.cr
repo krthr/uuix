@@ -1,2 +1,2 @@
 require "spec"
-require "../src/uuid"
+require "../src/uuix.cr"
