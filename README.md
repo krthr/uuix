@@ -26,6 +26,21 @@ puts UUIX.random # bc524cd7-5ec3-48c4-9bcc-e9013c69dd6e
 
 ## Benchmarks
 
+Actual version:
+
+> Using String.build (to optimize string generation). Proposed by [Sergey Kuznetsov](https://github.com/skuznetsov) in this [thread](https://forum.crystal-lang.org/t/a-tiny-1kb-fast-and-cryptographically-secure-uuid-v4-generator-for-crystal/1774/6)
+
+```bash
+Crystal 0.33.0 [612825a53] (2020-02-14)
+
+LLVM: 8.0.0
+Default target: x86_64-unknown-linux-gnu
+        UUIX:   1.14M (880.57ns) (±27.06%)  321B/op        fastest
+Crystal UUID: 512.70k (  1.95µs) (±27.50%)  0.0B/op   2.21× slower
+```
+
+Original version:
+
 ```bash
 Crystal 0.33.0 [612825a53] (2020-02-14)
 
