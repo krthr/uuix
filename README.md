@@ -1,6 +1,6 @@
 # uuidx
 
-A tiny (<1KB), fast, and cryptographically secure UUID (v4) generator for Crystal.
+A tiny (<1KB) and fast UUID (v4) generator for Crystal
 
 > This is the Crystal version of [@lukeed/uuid](https://github.com/lukeed/uuid)
 
