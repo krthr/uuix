@@ -1,4 +1,4 @@
-# uuidx
+# uuix
 
 A tiny (<1KB) and fast UUID (v4) generator for Crystal
 
